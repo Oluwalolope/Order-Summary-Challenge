@@ -1,0 +1,118 @@
+html {
+    height: 100%;
+    background-image: url(images/pattern-background-desktop.svg); 
+    background-color: rgba(158, 158, 224, 0.26);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+.container {
+    min-height: 350px;
+    width: 350px;
+    text-align: center;
+    padding-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+}
+header img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+main h1 {
+    color: hsl(223, 47%, 23%);
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-top: 40px;
+}
+main p {
+    color: gray;
+    margin-top: 15px;
+    padding-left: 30px;
+    line-height: 1.125rem;
+    padding-right:30px ;
+    font-size: 0.8rem;
+}
+header {
+    background-color: hsl(224, 23%, 55%);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 150px;
+    width: 350px;
+}
+main {
+    background-color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    min-height: 350px;
+    width: 350px;
+}
+.plan {
+    background-color: rgba(248, 240, 240, 0.521);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    width: 280px;
+    height: 65px;
+}
+.plan h1, .plan img, .plan a {
+    flex: 1;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.plan h1 {
+    margin-left: -20px;
+    padding-bottom: 35px;
+    font-weight: 700;
+}
+.plan h1 p {
+    margin-top: -0.5px;
+    font-weight: 500;
+}
+.plan img {
+    border-radius: 20px;
+}
+.payment {
+    background-color: hsl(245, 75%, 52%);
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin-top: 30px;
+    display: block;
+    box-sizing: border-box;
+    box-shadow: 0px 12px 15px rgba(0, 0, 0, 0.24);
+    padding: 12px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    width: 280px;
+    height: 40px;
+}
+.order {
+    display: block;
+    color: gray;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 30px;
+}
+.change:hover {
+    color: rgb(133, 133, 197) ;
+}
+.payment:hover {
+    background-color: rgb(94, 94, 202) ;
+}
+.order:hover {
+    color: black;
+}
